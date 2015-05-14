@@ -107,7 +107,7 @@ EOF;
     //どんどん付け足していく
     $tmp = $tmp . $loophtml;
 }
-//wp_reset_query();
+
 //レスポンスデータをjson形式に整形
 $data = array(
     "html" => $tmp,
