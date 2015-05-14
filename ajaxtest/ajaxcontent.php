@@ -117,9 +117,9 @@ $jsonData = json_encode( $data );
 
 //レスポンスヘッダーをセット
 header( "Content-Type: application/json; X-Content-Type-Options: nosniff; charset=utf-8" );
-//header( "Content-Type: text/html; X-Content-Type-Options: nosniff; charset=utf-8" );
 //レスポンス送信
 echo  $jsonData;
 
 //おわり
 die();
+
